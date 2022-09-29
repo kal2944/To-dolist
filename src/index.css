@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #eee;
+}
+
+.container {
+  background-color: #fff;
+  height: auto;
+  width: 40%;
+  margin: auto;
+  margin-top: 5em;
+  border-radius: 5px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid#eee;
+  padding: 1em;
+  margin-bottom: 8px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border-bottom: 1px solid#eee;
+}
+
+#input {
+  border: 0;
+  width: 100%;
+  font-size: 16px;
+}
+
+#input:focus {
+  outline: 0;
+}
+
+.add-btn,
+.edit-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+#tasks-list {
+  padding: 1em;
+}
+
+#tasks-list li {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  margin-left: -15em;
+}
+
+.bottom {
+  padding: 1em;
+  width: 100%;
+  background-color: #e0e0e0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.clear {
+  width: 100%;
+  height: 29px;
+  border: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #413f42;
+  background-color: inherit;
+}
