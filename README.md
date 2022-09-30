@@ -41,7 +41,7 @@ To get a local copy up and running follow these simple example steps.
 - Open the project folder in VS Code.
 
 
-## Author
+## Authors
 
 👤 **kalkidan Daniel**
 
