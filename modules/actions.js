@@ -92,6 +92,7 @@ function actions() {
           notDeleted[i].index = i + 1;
         }
         localStorage.setItem('data', JSON.stringify(notDeleted));
+        window.location.reload();
       }
     });
   }
