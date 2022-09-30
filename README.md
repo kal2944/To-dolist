@@ -1,6 +1,7 @@
-# To Do list: add & remove
+# To Do list
 
-In this project, you will implement the CRUD (create, read, update, delete) methods. All the elements of the user interface will be fully functional and your application will be completed.
+This is a simple to-do list application that helps to organize your activity and this project built with JS, HTML, and CSS using webpack and linters.
+
 
 ## Built With
 

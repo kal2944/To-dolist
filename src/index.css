@@ -9,13 +9,13 @@ li {
 }
 
 body {
-  background-color: rgb(214, 214, 214);
+  background-color: #fff;
 }
 
 .Box {
   background-color: #fff;
   height: auto;
-  width: 55%;
+  width: 30%;
   margin: auto;
   margin-top: 4.5em;
   border-radius: 7px;
