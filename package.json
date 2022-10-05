@@ -1,24 +1,8 @@
 {
-  "name": "webpack-exersise",
+  "name": "to-dolist",
   "version": "1.0.0",
-  "description": "",
-  "private": true,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --open",
-    "build": "webpack"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kal2944/webpack-exersise.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kal2944/webpack-exersise/issues"
-  },
-  "homepage": "https://github.com/kal2944/webpack-exersise#readme",
+  "description": "This is a simple to-do list application that helps to organize your activity and this project built with JS, HTML, and CSS using webpack and linters.",
+  "main": "webpack.config.js",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
@@ -36,7 +20,25 @@
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kal2944/To-dolist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kal2944/To-dolist/issues"
+  },
+  "homepage": "https://github.com/kal2944/To-dolist#readme",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "lodash": "^4.17.21"
   }
 }

@@ -13,11 +13,10 @@ body {
 }
 
 .Box {
-  background-color: #fff;
   height: auto;
   width: 30%;
   margin: auto;
-  margin-top: 4.5em;
+  margin-top: 4.4em;
   border-radius: 7px;
 }
 
@@ -50,7 +49,7 @@ form {
 
 .add-btn,
 .edit-btn,
-.delete-btn {
+.btn {
   background: none;
   border: none;
   padding: 0;
@@ -92,8 +91,7 @@ form {
   padding: 0.8em;
   width: 100%;
   background-color: #cfcaca;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-radius: 5px;
 }
 
 .clear {
