@@ -14,7 +14,7 @@ This is a simple to-do list application that helps to organize your activity and
 
 ## Live Demo
 
-https://kal2944.github.io/To-dolist/
+[Live link](https://kal2944.github.io/To-dolist/)
 
 
 ## Getting Started
